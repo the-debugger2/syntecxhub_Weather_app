@@ -2,6 +2,10 @@
 
 A simple web-based weather application that allows users to check the current weather conditions for any city.
 
+## Live demonstration
+
+https://the-debugger2.github.io/syntecxhub_Weather_app/
+
 ## Description
 
 This Weather App fetches real-time weather data from the OpenWeatherMap API and displays it in a clean, user-friendly interface. Users can search for weather information by entering a city name.
