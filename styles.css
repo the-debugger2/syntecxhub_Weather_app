@@ -1,0 +1,82 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    height: 100vh;
+    background: #222;
+    background-image: url('https://getwallpapers.com/wallpaper/full/7/7/7/666582.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    border-radius: 30px;
+    background: #000000d0;
+    color: white;
+    width: 100%;
+    margin: 1em;
+    max-width: 400px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    height: 30px;
+    align-items: center;
+    gap: 0.5em
+}
+
+.search input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+}
+
+.search button {
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.search img {
+    width: 20px;
+    height: 20px;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
